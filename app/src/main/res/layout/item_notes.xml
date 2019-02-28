@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+
+
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:layout_marginTop="6dp"
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:id="@+id/todoLayout"
+            android:padding="8dp"
+            android:orientation="vertical"
+            android:background="@drawable/layer_list"
+            >
+
+            <TextView
+                android:id="@+id/recycle_title"
+                android:layout_width="match_parent"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:layout_height="wrap_content"
+                android:textColor="@color/abc_primary_text_material_dark"
+                tools:text="Title"
+                android:paddingBottom="3sp"
+                android:textSize="20sp"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#757575"/>
+
+
+            <TextView
+                android:id="@+id/recycle_content"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:paddingTop="3sp"
+                android:textSize="15sp"
+                android:maxLines="4"
+                android:lines="4"
+                android:gravity="left"
+                android:textColor="@color/abc_primary_text_material_dark"
+                tools:text="Content"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#757575"/>
+
+
+
+                <TextView
+                    android:id="@+id/recycle_modified_date_time"
+                    android:layout_width="match_parent"
+                    android:singleLine="true"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="3sp"
+                    android:textSize="10sp"
+                    android:textColor="@color/abc_secondary_text_material_dark"
+                    tools:text="modified date"/>
+
+
+
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

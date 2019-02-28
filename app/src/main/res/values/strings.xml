@@ -1,0 +1,104 @@
+<resources>
+    <string name="app_name">My Todo</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="no_cardetails_remainder">Click on the plus button to create your remainder</string>
+    <string name="no_cardetails_notes">Click on the plus button to create your note</string>
+    <string name="no_cardetails_todo">Click on the plus button to create your todo</string>
+    <string name="title_activity_add_reminder">Add Reminder</string>
+    <string name="title_activity_edit_reminder">Edit Reminder</string>
+    <string name="title_activity_licenses">Licenses</string>
+
+    <string name="title_activity_add_todo">Add Todo</string>
+    <string name="title_activity_edit_todo">Edit Todo</string>
+
+    <string name="title_activity_add_note">Add Note</string>
+    <string name="title_activity_edit_note">Edit Note</string>
+
+    <string name="title_activity_remainder_alert">Edit Note</string>
+
+    <string name="add_reminder">Reminder</string>
+    <string name="add_todo">Todo Details</string>
+    <string name="details">Details</string>
+    <string name="date">Date</string>
+    <string name="time">Time</string>
+    <string name="repeat">Repeat</string>
+    <string name="repeat_off">Off</string>
+    <string name="repeat_no">Repetition Interval </string>
+    <string name="repeat_type">Type of Repetitions</string>
+    <string name="category">Category</string>
+
+    <string name="action_discard">Discard</string>
+    <string name="action_save">Save</string>
+
+    <string name="editor_activity_title_new_reminder">Add Reminder Details</string>
+    <string name="editor_activity_title_edit_reminder">Edit Reminder</string>
+    <string name="editor_activity_title_new_todo">Add Todo Details</string>
+    <string name="editor_activity_title_edit_todo">Edit Todo</string>
+    <string name="editor_activity_title_new_note">Add Note Details</string>
+    <string name="editor_activity_title_edit_note">Edit Note</string>
+    <string name="editor_activity_title_view_note">View Note</string>
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+    <string name="discard">Discard</string>
+
+    <string name="keep_editing">Keep Editing</string>
+    <string name="delete_dialog_msg">Delete this Reminder?</string>
+    <string name="delete_dialog_msg_note">Delete this Note?</string>
+
+    <string name="delete">Delete</string>
+
+    <string name="cancel">Cancel</string>
+    <string name="editor_delete_reminder_successful">Reminder deleted</string>
+
+    <string name="editor_delete_reminder_failed">Error with deleting reminder</string>
+
+    <string name="editor_insert_reminder_successful">Reminder saved</string>
+
+    <string name="editor_insert_reminder_failed">Error with saving reminder</string>
+
+    <string name="editor_update_reminder_successful">Reminder updated</string>
+
+    <string name="editor_update_reminder_failed">Error with updating reminder</string>
+
+    <string name="editor_delete_todo_successful">Todo deleted</string>
+
+    <string name="editor_delete_todo_failed">Error with deleting todo</string>
+
+    <string name="editor_insert_todo_successful">Todo saved</string>
+
+    <string name="editor_insert_todo_failed">Error with saving todo</string>
+
+    <string name="editor_update_todo_successful">Todo updated</string>
+
+    <string name="editor_update_todo_failed">Error with updating todo</string>
+
+    <string name="reminder_title">My Reminder</string>
+
+    <string name="todo_title">My Todo</string>
+
+    <string name="todo_task_header">Task\'s Todo</string>
+
+    <string name="delete_todo_dialog_msg">Delete this Todo?</string>
+
+    <string name="add_title_note">Title</string>
+
+    <string name="editor_delete_note_successful">Note deleted</string>
+
+    <string name="editor_delete_note_failed">Error with deleting note</string>
+
+    <string name="editor_insert_note_successful">Note saved</string>
+
+    <string name="editor_insert_note_failed">Error with saving note</string>
+
+    <string name="editor_update_note_successful">Note updated</string>
+
+    <string name="editor_update_note_failed">Error with updating note</string>
+
+    <string name="notification_task_done">Task Done</string>
+
+
+</resources>

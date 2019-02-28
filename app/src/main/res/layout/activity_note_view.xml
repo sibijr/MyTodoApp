@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:minHeight="?attr/actionBarSize"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:contentInsetLeft="0dp"
+        app:contentInsetStart="16dp"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:background="?attr/colorPrimary" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbar"
+        android:padding="10dp">
+
+    <TextView
+        android:id="@+id/titleView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="23sp"
+        android:textColor="@color/mdtp_white"
+        android:padding="2dp"
+        />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/titleView"
+            android:background="#757575"/>
+
+
+        <TextView
+        android:paddingTop="5dp"
+        android:id="@+id/contentView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/titleView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:gravity="top|start"
+        android:scrollbars="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textSize="20sp"
+        android:textColor="@color/mdtp_white"
+        />
+    </RelativeLayout>
+
+</RelativeLayout>
